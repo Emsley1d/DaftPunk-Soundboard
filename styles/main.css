@@ -1,11 +1,17 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp2943778.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
 }
 
 
 h1 {
-    color: red;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 60px;
 }
 
 .row1, .row2, .row3, .row4 {
@@ -14,16 +20,28 @@ h1 {
     width: 1000px;
     height: 100px;
     margin: 10px;
-    border: 10px;
+    border: 10px; 
 }
 
 p {
-    border: 1px solid black;;
     padding: 30px;
     margin: 30px;
     width: 120px;
     cursor: pointer;
+    box-shadow: 10px;
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+img {
+    height: 600px;
+    opacity: 80%;
 }
 
-
+hr {
+    color: lightgrey;
+    width: 1000px;
+    float: left;
+}
 
